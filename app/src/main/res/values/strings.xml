@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">devCon</string>
+    <string name="permission_rationale_location">Access to the location service is required to use the My Location feature, which returns your current addrress.</string>
+    <string name="location_permission_denied">This application requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Mobot\'.</string>
+    <string name="permission_required_toast">Location permission is required for this application.</string>
+    <string name="survkitstr">Storing emergency supplies at home for all inhabitants is an essential part of keeping you and your family safe in a crises situation. </string>
+    <string name="survprep">Survival Kit Preparation </string>
+    <string name="topstory">Top Story : November 05, 2014</string>
+    <string name="storttitle">After Yolanda: Are we more prepared for storm surge?</string>
+    <string name="top_stories">TOP STORIES</string>
+    <string name="nina_strongest_typhoon_to_hit_bicol_in_10_years">\'Nina\' strongest typhoon to hit Bicol in 10 years</string>
+    <string name="_6_5_magnitude_earthquake_hits_mati_in_davao_oriental">6.5-magnitude earthquake hits Mati in Davao Oriental</string>
+    <string name="all">ALL</string>
+    <string name="after_yolanda_are_we_more_prepared_for_storm_surge">After Yolanda: Are we more prepared for storm surge?</string>
+    <string name="manila_philippines_a_6_5_magnitude_earthquake_jolted_mati_city_in_davao_oriental_past_6_am_saturday_september_24_according_to_the_philippine_institute_of_volcanology_and_seismology_phivolcs">MANILA, Philippines – A 6.5-magnitude earthquake jolted Mati City in Davao Oriental past 6 am Saturday, September 24, according to the Philippine Institute of Volcanology and Seismology (Phivolcs).</string>
+    <string name="recent">RECENT</string>
+    <string name="read_more">Read more</string>
+    <string name="read_more2">Read more</string>
+    <string name="read_more3">Read more</string>
+    <string name="scene_of_destruction_a_woman_shares_a_cup_of_hot_coffee_with_her_husband_amid_the_ruins_of_their_house_a_day_after_typhoon_nina_struck_their_village_in_bato_catanduanes_province_authorities_reported_at_least_seven_deaths_in_the_strongest_typhoon_to_hit_bicol_in_10_years_fernan_g_gianan">SCENE OF DESTRUCTION A woman shares a cup of hot coffee with her husband amid the ruins of their house a day after Typhoon “Nina” struck their village in Bato, Catanduanes province. Authorities reported at least seven deaths in the strongest typhoon to hit Bicol in 10 years. —FERNAN G. GIANAN</string>
+    <string name="fire_extinguisher">Fire Extinguisher</string>
+    <string name="battery_powered_radio">Battery Powered Radio</string>
+    <string name="bottled_water">Bottled Water</string>
+    <string name="first_aid_kit">First Aid Kit</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="button">Button</string>
+
+</resources>

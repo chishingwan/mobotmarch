@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/talkbg"
+    tools:context="sti.devcon.MainActivity">
+
+    <ImageButton
+        android:layout_width="30dp"
+        app:srcCompat="@drawable/qmark"
+        android:id="@+id/imageButton3"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/infor"
+        android:id="@+id/imageButton4"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginEnd="15dp"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toStartOf="@+id/imageButton3" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_text"
+        android:layout_below="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageButton3"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:text="how to use?" />
+
+    <ImageButton
+        app:srcCompat="@drawable/micro"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/recBtn"
+        android:scaleType="fitXY"
+        android:onClick="onButtonClick"
+
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <ImageView
+        app:srcCompat="@drawable/user1"
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageButton3" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/tv"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:id="@+id/txtSrc"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:autoLink="web"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp"
+
+        android:layout_below="@+id/tv1"
+        android:layout_alignStart="@+id/tv1"
+        android:layout_toStartOf="@+id/imageButton3" />
+
+    <Button
+        android:layout_width="50dp"
+        android:id="@+id/bckMain"
+        android:background="@drawable/back"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignBottom="@+id/recBtn"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_height="300dp"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/recBtn"
+        android:layout_alignStart="@+id/bckMain"
+        android:layout_alignEnd="@+id/imageButton3" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:background="@drawable/round_ans"
+        android:padding="10dp"
+        android:text="Tap the mic icon to start conversation"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="450dp"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/imageButton4"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnplay"
+        android:background="@drawable/play"
+        android:layout_alignTop="@+id/tv1"
+        android:layout_toEndOf="@+id/tv1"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recBtn"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/txtVid"
+        android:autoLink="web"
+        android:textColor="#000000"
+        android:layout_alignStart="@+id/videoView"
+        android:layout_alignEnd="@+id/videoView"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/next"
+        android:id="@+id/btnNext"
+        android:layout_alignTop="@+id/videoView"
+        android:layout_alignEnd="@+id/videoView"
+        android:layout_marginTop="115dp" />
+
+    <Button
+        android:text="First Aid Instructions"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/tv1"
+        android:id="@+id/btnCall"
+        android:layout_toStartOf="@+id/btnplay"
+        android:layout_width="500dp"
+        android:layout_alignEnd="@+id/btnEmer" />
+
+    <Button
+        android:text="Call Emergency Contact"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/btnEmer"
+        android:layout_below="@+id/btnCall"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/firstAid"
+        android:layout_width="560dp"
+        android:layout_height="330dp"
+        android:text="Basic First Aid  \n\nEmergency situations are all different. If you know basic first aid you may be able to help someone and quite possibly save their life. Here are a few emergency scenarios and basic first aid instructions that could help you help someone else until emergency help arrives.  \n\nBasic First Aid for Injuries  \nIf you are with someone and he or she becomes injured, you should not move them. The only time you can move someone who is injured is in the case of fire or explosives. If there is no fire or explosion to be concerned about, do not move the person. It can make injuries worse, especially spinal injuries. If you do have to move someone try to put them on a blanket and pull on the blanket. If you do not have a blanket, try to pull them by their shirt.  \n\nBasic First Aid for Bleeding \nIf a person loses too much blood he or she can go into shock. The best way to help someone who is bleeding is to apply pressure to the wound using a clean cloth and your hand. If possible, you should try to elevate the bleeding area above the person's heart. Do not remove the cloth once the wound has been controlled. You should never apply a tourniquet to someone unless it involves a severed limb.  \n\nBasic First Aid for Minor Burns  \nIf someone has a minor burn the first thing you can do is run the burn under cold water to flush the wound until help arrives. If the person who is burned has clothing stuck to the burn, do not remove it. Do not apply any kind of soap, ointment or any home remedies to the burn. Do not touch the burn or attempt to scrub the burn. \n\nCall 911.  If the person has an electrical burn, do not touch him or her until you are certain the power source has been shut off or unless you are certain you are clear of it. Once you are certain the person is free of the power source you can touch him or her and check to see if he or she is breathing. If the person is not breathing, do CPR until help arrives."
+        android:layout_below="@+id/txtSrc"
+        android:layout_alignEnd="@+id/videoView"
+        android:background="#FFFFFF"
+        android:focusable="false"
+        />
+
+</RelativeLayout>

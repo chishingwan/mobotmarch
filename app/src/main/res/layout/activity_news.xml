@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newsbg"
+    tools:context="sti.devcon.News">
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:background="@drawable/home"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignStart="@+id/button2" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="'Nina' strongest typhoon to hit Bicol in 10 years  "
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton2"
+        android:id="@+id/textView18"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageButton2"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:text="  TOP STORIES"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textSize="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <Button
+        android:text="Read more"
+        android:background="?android:attr/selectableItemBackground"
+        android:textStyle="bold"
+        android:textColor="#1192E8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:id="@+id/button2"
+        android:elevation="0dp"
+
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17" />
+
+    <ImageButton
+        android:layout_width="230dp"
+        app:srcCompat="@drawable/davao"
+        android:id="@+id/imageButton5"
+        android:layout_marginBottom="21dp"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/btnBack"
+        android:layout_alignStart="@+id/btnBack"
+        android:layout_height="185dp" />
+
+    <TextView
+        android:text="SCENE OF DESTRUCTION A woman shares a cup of hot coffee with her husband amid the ruins of their house a day after Typhoon “Nina” struck their village in Bato, Catanduanes province. Authorities reported at least seven deaths in the strongest typhoon to hit Bicol in 10 years. —FERNAN G. GIANAN  "
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="330dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        app:srcCompat="@drawable/stormnina1"
+        android:id="@+id/imageButton2"
+        android:layout_width="230dp"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5" />
+
+    <TextView
+        android:text="6.5-magnitude earthquake hits Mati in Davao Oriental"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/imageButton5"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:text="MANILA, Philippines – A 6.5-magnitude earthquake jolted Mati City in Davao Oriental past 6 am Saturday, September 24, according to the Philippine Institute of Volcanology and Seismology (Phivolcs)."
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="330dp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Read more"
+        android:background="?android:attr/selectableItemBackground"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+
+android:paddingTop="7dp"
+        android:id="@+id/button3"
+        android:elevation="0dp"
+        android:textColor="#1192E8"
+
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_alignStart="@+id/textView19" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnBack"
+        android:background="@drawable/back"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:background="@drawable/talk1"
+
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignEnd="@+id/imageButton6" />
+
+    <TextView
+        android:text="ALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="RECENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView21"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_toEndOf="@+id/button3" />
+
+    <ImageButton
+        app:srcCompat="@drawable/haiyan"
+        android:id="@+id/imageButton"
+        android:scaleType="fitXY"
+        android:layout_width="290dp"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginTop="19dp"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton6"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="STORM SURGE AFTERMATH. A ship washed ashore by storm surges during the height of Super Typhoon Haiyan (Yolanda)..."
+        android:id="@+id/textView14"
+        android:textColor="#000000"
+        android:layout_width="270dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="Read more"
+        android:background="?android:attr/selectableItemBackground"
+        android:textStyle="bold"
+        android:textColor="#1192E8"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:id="@+id/news1"
+        android:elevation="0dp"
+
+        android:layout_height="20dp"
+        android:layout_above="@+id/textView18"
+        android:layout_toEndOf="@+id/button5"
+        android:layout_marginBottom="22dp" />
+
+    <TextView
+        android:paddingLeft="15dp"
+        android:text="After Yolanda: Are we more prepared for storm surge?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        app:srcCompat="@drawable/srch"
+        android:id="@+id/imageButton6"
+        android:scaleType="fitXY"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginEnd="16dp"
+        android:elevation="0dp"
+        android:layout_height="43dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

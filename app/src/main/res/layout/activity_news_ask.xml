@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_news_ask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/askbg1"
+    tools:context="sti.devcon.NewsAsk">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tv"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:src="@drawable/micro"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/recBtn"
+            android:scaleType="fitXY"
+            android:onClick="onButtonClick"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+    <Button
+            android:id="@+id/btnBackAsk"
+            android:background="@drawable/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/quesTxt"
+            android:layout_marginBottom="12dp" />
+
+    <TextView
+    android:text="Moby:"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/quesTxt"
+    android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@+id/aTxt"
+        android:layout_alignBottom="@+id/aTxt"
+        android:layout_alignStart="@+id/contentTxt"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:text="User : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:gravity="top"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@+id/qTxt"
+        android:layout_alignBottom="@+id/qTxt"
+        android:layout_alignStart="@+id/contentTxt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:inputType="textMultiLine|textNoSuggestions"
+    android:ems="10"
+    android:id="@+id/aTxt"
+    android:paddingTop="2dp"
+    android:focusable="false"
+    android:gravity="top"
+    android:background="@drawable/round_edit"
+        android:layout_above="@+id/recBtn"
+        android:layout_alignEnd="@+id/contentTxt"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_height="95dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+            android:id="@+id/qTxt"
+
+        android:paddingTop="2dp"
+        android:textSize="18sp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_edit"
+        android:layout_width="500dp"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/aTxt"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:text="@string/topstory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:background="@android:color/holo_orange_light"
+        android:layout_above="@+id/contentTxt"
+        android:layout_alignStart="@+id/contentTxt" />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/storttitle"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgNews"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:background="@drawable/haiyan"
+        android:id="@+id/imgNews"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="230dp"
+        android:contentDescription="@null" />
+
+    <EditText
+            android:layout_width="579dp"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:ems="10"
+            android:id="@+id/contentTxt"
+            android:focusable="false"
+        android:text="MANILA, Philippines – A year since super typhoon Yolanda (Haiyan), how far has the Philippines come in preparing for storm surges?  \n\nThe term, previously esoteric for most Filipinos, barreled into the country's consciousness when Yolanda caused a storm surge as high as a two-story building. Thousands of deaths were attributed to the phenomenon. It's no coincidence that the highest death tolls were from coastal areas.  The government says they have made head-way in better preparing the country for storm surges. \n\nScientists from Project NOAH (Nationwide Operational Assessment of Hazards), a program under the Department of Science and Technology (DOST), says the government now has the right tools to prevent casualties from the next Haiyan-scale calamity.  \n\nSome of the projects in the works are a storm surge advisory system and a more detailed storm surge simulation model that will allow vulnerable localities to determine where exactly the surge will hit them hardest.  Right after Yolanda, the DOST set out to compile a list of the top 30 localities most vulnerable to a Yolanda-scale storm surge. The idea is to identify which areas deserve priority given their extraordinary level of exposure to the phenomenon.  &quot;We made storm surge simulations using the strength of Typhoon Yolanda. Each circle represents maximum probable storm surge height that an area can sustain,&quot; explained Project NOAH researcher John Phillip Lapidez during a storm surge mapping forum on Tuesday, November 4.  He gestured towards a map of the Philippines full of red, orange and yellow dots pertaining to various storm surge heights – red for 7.2 meters (24 feet), orange for 5.6 meters (18 feet), yellow for 4.8 meters (16 feet).  The study simulated tracks of all typhoons that passed through the Philippines from 1948 to 2013 but using the strength of Yolanda.  \n\nSource :  http://www.rappler.com/nation/74089-yolanda-year-after-storm-surge-advisories"
+            android:textSize="20sp"
+            android:gravity="top"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_height="300dp"
+        android:layout_above="@+id/textView12"
+        android:layout_alignEnd="@+id/textView15"
+        android:layout_marginBottom="11dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgblue"
+    tools:context="sti.devcon.Home"
+    android:maxLines="1">
+
+    <TextView
+        android:text="@string/survprep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textView9"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_x="176dp"
+        android:layout_y="81dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/preptxt"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/donut_Progress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="7dp"
+        android:textStyle="bold"
+        android:layout_y="331dp" />
+
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/donut_Progress"
+        android:layout_width="200dp"
+        custom:donut_progress="0"
+        custom:donut_finished_color="#f62121"
+
+
+        custom:donut_text_color="#f62121"
+        custom:donut_text_size="30sp"
+        android:layout_marginTop="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        android:layout_x="197dp"
+        android:layout_y="114dp" />
+
+    <Button
+        android:id="@+id/btnSk"
+        android:layout_width="290dp"
+        android:layout_height="96dp"
+        android:layout_alignBaseline="@+id/btnPrep"
+        android:layout_alignBottom="@+id/btnPrep"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/btnPrep"
+        android:layout_x="9dp"
+        android:layout_y="723dp"
+        android:background="@drawable/sk5"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="290dp"
+        android:layout_height="96dp"
+
+        android:layout_alignBottom="@+id/btnPrep"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/btnPrep"
+        android:layout_x="303dp"
+        android:layout_y="723dp"
+        android:background="@drawable/settingsbtn"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/btnPrep"
+
+        android:layout_width="290dp"
+
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/preptxt"
+        android:layout_marginTop="72dp"
+        android:layout_x="303dp"
+        android:layout_y="621dp"
+        android:background="@drawable/changevoice" />
+
+    <Button
+        android:id="@+id/btnNews"
+        android:layout_width="290dp"
+
+        android:layout_height="96dp"
+        android:layout_alignBaseline="@+id/btnPrep"
+        android:layout_alignBottom="@+id/btnPrep"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/btnPrep"
+        android:layout_x="8dp"
+        android:layout_y="621dp"
+        android:background="@drawable/newsbtn"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/btnEmer"
+        android:layout_width="125dp"
+        android:layout_height="113dp"
+        android:layout_alignBaseline="@+id/btnPrep"
+        android:layout_alignBottom="@+id/btnPrep"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/btnPrep"
+        android:layout_x="237dp"
+        android:layout_y="664dp"
+        android:background="@drawable/micnew3"
+        android:scaleType="fitXY" />
+
+
+</AbsoluteLayout>
